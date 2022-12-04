@@ -25,7 +25,7 @@ assert data[v1] == 'hello'
 * Accessing with a vector gives the closest value keyed by the closest vector
 * The algorithm is *approximate* nearest neighbor search. You can tune the accuracy (see below)
 * You can have millions of vectors in the dictionary
-* If you know the approximate size, pass `est_nelements` to `vidct()` to reduce how often things are resized
+* If you know the approximate size, pass `est_nelements` to `vdict()` to reduce how often things are resized
 
 ## Usage
 
